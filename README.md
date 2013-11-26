@@ -12,13 +12,29 @@ It is based on a fork of the excellent [ng-boilerplate](https://github.com/ngbp/
 Install Node.js and then:
 
 ```sh
-$ git clone git://github.com/joshdmiller/ng-boilerplate
-$ cd ng-boilerplate
-$ sudo npm -g install grunt-cli karma bower
+$ git clone git://github.com/rowy/ng-phonegap-boilerplate
+$ cd ng-boilerplate-boilerplate
+$ sudo npm -g install grunt-cli karma bower cordova
 $ npm install
 $ bower install
 $ grunt watch
 ```
+
+Build for phonegap app
+
+Android
+```sh
+$ grunt android
+```
+IOS
+```sh
+$ grunt ios
+```
+BlackBerry
+```sh
+$ grunt blackberry
+```
+
 
 Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
 
