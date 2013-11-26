@@ -23,6 +23,11 @@ Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
 
 ### Build phonegap app
 
+Create the PhoneGap app
+```sh
+$ cordova phonegap com.example.phonegap PhonegapAngular
+```
+
 Android
 ```sh
 $ grunt android
