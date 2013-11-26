@@ -1,6 +1,9 @@
-# [ng-boilerplate-phonegap](https://github.com/rowy/ng-boilerplate-phonegap)
+# [ng-phonegap-boilerplate](https://github.com/rowy/ng-phonegap-boilerplate)
 
-A fork of [ngBoilerplate](https://github.com/ngbp/ng-boilerplate), to add phonegap capabilities.
+A boilerplate template for new Phonegap projects with AngularJS.
+It is based on a fork of the excellent [ng-boilerplate](https://github.com/ngbp/ng-boilerplate) by @joshdmiller
+
+
 
 ***
 
