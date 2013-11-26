@@ -91,6 +91,8 @@ ng-boilerplate/
   |  |- angular-bootstrap/
   |  |- bootstrap/
   |  |- placeholders/
+  |- phonegap
+  |  |- www
   |- .bowerrc
   |- bower.json
   |- build.config.js
