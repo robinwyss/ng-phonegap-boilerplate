@@ -147,6 +147,16 @@ module.exports = function ( grunt ) {
             expand: true
           }
         ]
+      }, 
+      phonegap_config: {
+        files: [
+          {
+            src: '<%= compile_dir %>/config.xml',
+            dest: '<%= build_dir %>/config.xml',
+            cwd: '.',
+            expand: true
+          }
+        ]
       }
     },
 
@@ -515,7 +525,7 @@ module.exports = function ( grunt ) {
    * minifying your code.
    */
   grunt.registerTask( 'compile', [
-    'recess:compile', 'copy:compile_assets', 'ngmin', 'concat:compile_js', 'uglify', 'index:compile'
+    'copy:phonegap_config', 'recess:compile', 'copy:compile_assets', 'ngmin', 'concat:compile_js', 'uglify', 'index:compile'
   ]);
   
   /**
