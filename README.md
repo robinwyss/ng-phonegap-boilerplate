@@ -17,16 +17,15 @@ $ cd ng-boilerplate-boilerplate
 $ sudo npm -g install grunt-cli karma bower cordova
 $ npm install
 $ bower install
+$ cordova create phonegap com.example.yourPackageName YourPhonegapAppNAme
 $ grunt watch
 ```
 Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
 
+If you don't want to have the phoegap app in the phonegap folder, you have to change ```compile_dir``` property in the ```build.config.js``` file.
+
 ### Build phonegap app
 
-Create the PhoneGap app
-```sh
-$ cordova phonegap com.example.phonegap PhonegapAngular
-```
 
 Android
 ```sh
