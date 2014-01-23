@@ -31,7 +31,7 @@ Android
 ```sh
 $ grunt android
 ```
-IOS
+iOS
 ```sh
 $ grunt ios
 ```
